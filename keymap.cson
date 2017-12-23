@@ -1,0 +1,6 @@
+'atom-text-editor:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'
+
+
+'atom-workspace':
+  'ctrl-shift-z': 'atom-terminal:open-project-root'
