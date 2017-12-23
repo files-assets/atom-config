@@ -1,0 +1,46 @@
+/**
+ * Tab e footer:
+ */
+
+.tab-bar {
+  height: 3em;
+  font-size: 1.1em;
+}
+
+.tab-bar .tab {
+  line-height: 3em;
+}
+
+.tab-bar .tab .close-icon {
+  top: 50%;
+  transform: translateY(-50%) scale(0);
+}
+
+.tab-bar .tab:hover .close-icon,
+.tab-bar .tab.modified:not(:hover) .close-icon {
+  top: 50%;
+  transform: translateY(-50%) scale(1);
+}
+
+.status-bar {
+  height: 3.4em;
+  line-height: 3.4em;
+  font-size: 1.05em;
+}
+
+/**
+ * Sintaxe:
+ */
+
+.syntax--php .syntax--curly.syntax--class {
+  color: #abb2bf !important;
+}
+
+.syntax--html .syntax--attribute-name {
+  font-style: italic;
+}
+
+[class*="comment "] {
+  font-style: normal !important;
+  color: #5c626d !important;
+}
