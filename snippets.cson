@@ -1,0 +1,8 @@
+'.js':
+  'jQuery':
+    'prefix': 'jq',
+    'body': '(function ($) {\n  \'use strict\';\n\n  $(function () {\n\n  });\n}(jQuery));'
+
+  'SCEditor Path':
+    'prefix': 'sceditor',
+    'body': '$(\'#text_editor_textarea\').sceditor(\'instance\');'
