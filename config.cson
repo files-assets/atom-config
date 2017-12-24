@@ -1,0 +1,33 @@
+"*":
+  "autocomplete-plus":
+    confirmCompletion: "enter"
+  core:
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "node_modules"
+      "package-lock.json"
+    ]
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "Consolas"
+    fontSize: 17
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+  emmet: {}
+  "exception-reporting":
+    userId: "e853e237-d3dc-48d8-99e6-9568c2fb5db9"
+  pigments:
+    extendAutocompleteToColorValue: true
+    extendAutocompleteToVariables: true
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
